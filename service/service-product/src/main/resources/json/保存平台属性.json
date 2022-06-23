@@ -1,0 +1,19 @@
+{
+  "id": null,
+  "attrName": "aaaa",
+  "category1Id": 0,
+  "category2Id": 0,
+  "category3Id": 0,
+  "attrValueList": [
+    {
+      "valueName": "aaa",
+      "edit": false
+    },
+    {
+      "valueName": "ssss",
+      "edit": false
+    }
+  ],
+  "categoryId": 2,
+  "categoryLevel": 1
+}
