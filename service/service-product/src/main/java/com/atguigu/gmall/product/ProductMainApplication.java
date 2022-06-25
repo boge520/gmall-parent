@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Import;
 @Import(Swagger2Config.class)
 @MapperScan(basePackages = "com.atguigu.gmall.product.mapper")
 @SpringCloudApplication
-public class ServiceProductApplication {
+public class ProductMainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ServiceProductApplication.class, args);
+        SpringApplication.run(ProductMainApplication.class, args);
     }
 }
