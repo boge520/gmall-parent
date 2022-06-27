@@ -13,6 +13,7 @@
         <module name="model" />
         <module name="service-util" />
         <module name="service-product" />
+        <module name="mall-feign-client" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="" />
       <module name="common-util" options="-parameters" />
+      <module name="mall-feign-client" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="server-gateway" options="-parameters" />
       <module name="service" options="-parameters" />

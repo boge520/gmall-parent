@@ -1,348 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f2015fd-92a1-42fb-91b3-30d93a5249a8" name="Default Changelist" comment="第三次提交">
-      <change afterPath="$PROJECT_DIR$/service/web-front/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/FrontMainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-JD-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-addressList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-cooperation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-getOrderInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-login-manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-myOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-mycomment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-pay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-payconfirm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-payfail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-paysuccess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-sampling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-seckill-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-seckill-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-seckillOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-shoplogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-success-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-weixinpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/pages-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/widget-cartPanelView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/autocomplete.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/catalogSearch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/list-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/nav-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/orders.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productAlso.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productChoiceness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productGuess.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/productRelationship.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/shoplist-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/shoplist.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/data/success.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-moon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-moon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-moon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-pc.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-pc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-pc.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-pc.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-tb.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-tb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-tb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-tb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-touch.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-touch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-touch.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/fonts/icon-touch.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/hm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/Arrow_left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/Arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/bg-who1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/cooperation_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/down-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/empty_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/goods1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/gotop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/login-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/manage-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/photo_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/sampling_head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/seckillbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/shi_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/shop-intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/shop-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/shop-part.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/title_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/_/y24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/ad1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/addimg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/ali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/banner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/barrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/brand_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/cartPanelViewIcons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/choosed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/duihuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-b02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/floor-1-b03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/interest06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/like_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/linker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/mod-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/paylogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/quan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/today01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/today02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/today03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/today04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/wx_cz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/img/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/activity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/favorInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/orderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/orderRefundInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/seckill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/trade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/api/userAddress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/model/cartModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/addressList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/login-manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/person-collect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/person-footmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/seckill-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/shoplogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/sm-city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/pages/updateimg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/qrcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/stomp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/plugins/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/static/js/widget/cartPanelView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/cart/addCart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/common/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/common/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/common/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/common/loginHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/couponInfo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/item/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/list/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/order/myOrder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/order/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/order/trade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/payment/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/payment/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/payment/weixin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/seckill/fail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/seckill/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/seckill/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/seckill/queue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/templates/seckill/trade.html" afterDir="false" />
+    <list default="true" id="6f2015fd-92a1-42fb-91b3-30d93a5249a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/server-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/server-gateway/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ServiceProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ProductMainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ProductMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ProductMainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/BaseAttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/BaseAttrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/BaseAttrInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/BaseAttrInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/BaseAttrInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/BaseAttrInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseAttrInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseAttrInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/target/classes/com/atguigu/gmall/product/ServiceProductApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/BaseCategory1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/BaseCategory1Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SkuInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SkuInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SpuSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SpuSaleAttrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SkuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuSaleAttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuSaleAttrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuSaleAttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuSaleAttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseCategory1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseCategory1Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SkuInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SkuInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SpuSaleAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SpuSaleAttrMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/target/classes/META-INF/service-product.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/web-front/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/FrontMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/FrontMainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/web-front/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,6 +108,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2At3lviKtRj02tXAyynrf5GdD67" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -447,9 +132,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/config" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gmall.product.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gmall_work\gmall-parent\service\service-product\src\main\java\com\atguigu\gmall\product\config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -469,6 +162,38 @@
       <toRun name="ProductMainApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GatewayMainApplication" type="SpringBootApplicationConfigurationType" />
       <method v="2" />
+    </configuration>
+    <configuration name="MinioTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.gmall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.product.MinioTest" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinioTest.testUpload2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.gmall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.product.MinioTest" />
+      <option name="METHOD_NAME" value="testUpload2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="FrontMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="web-front" />
@@ -515,16 +240,24 @@
     </configuration>
     <list>
       <item itemvalue="Compound.gmall" />
+      <item itemvalue="JUnit.MinioTest.testUpload" />
+      <item itemvalue="JUnit.MinioTest.testUpload2" />
       <item itemvalue="Spring Boot.GatewayMainApplication" />
       <item itemvalue="Spring Boot.FrontMainApplication" />
       <item itemvalue="Spring Boot.ProductMainApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MinioTest.testUpload2" />
+        <item itemvalue="JUnit.MinioTest.testUpload" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.17896175" />
+          <option name="contentProportion" value="0.18965517" />
           <treeState>
             <expand>
               <path>
@@ -542,6 +275,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -563,7 +299,9 @@
       <workItem from="1655981159972" duration="5911000" />
       <workItem from="1655998203809" duration="6000" />
       <workItem from="1656031940436" duration="12171000" />
-      <workItem from="1656137396776" duration="1457000" />
+      <workItem from="1656137396776" duration="4977000" />
+      <workItem from="1656203029990" duration="32836000" />
+      <workItem from="1656289959994" duration="21321000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1655945686226</created>
@@ -593,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655969510787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第四次提交">
+      <created>1656153620008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656153620008</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +364,8 @@
     <MESSAGE value="第二次提交" />
     <MESSAGE value="第三次提交" />
     <MESSAGE value="新增FileController" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增FileController" />
+    <MESSAGE value="第四次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="64" width="735" height="696" key="#GatewayMainApplication" timestamp="1655889338692">
@@ -634,62 +380,90 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="238" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1656137458622" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1655982816243">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1656334145190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1655982816243" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1656334145190" />
+    <state x="498" y="193" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1656212635187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="193" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1656212635187" />
     <state x="548" y="152" key="#gmall" timestamp="1656046391622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="152" key="#gmall/0.0.1536.824@0.0.1536.824" timestamp="1656046391622" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1655969510079">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1656153615205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1655969510079" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1656153615205" />
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1656206813409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1656206813409" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1655948379796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655948379796" />
-    <state width="1237" height="271" key="GridCell.Tab.0.bottom" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.0.bottom" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.0.center" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.0.center" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.0.left" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.0.left" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.0.right" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.0.right" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.1.bottom" timestamp="1656153557180">
+    <state width="1221" height="326" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.1.bottom" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656153557180" />
-    <state width="1237" height="271" key="GridCell.Tab.1.center" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.1.center" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.1.left" timestamp="1656153557179">
+    <state width="1221" height="326" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.1.left" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1656153557179" />
-    <state width="1237" height="271" key="GridCell.Tab.1.right" timestamp="1656153557180">
+    <state width="1221" height="326" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.1.right" timestamp="1656336542616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="271" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1656153557180" />
+    <state width="1221" height="326" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.2.bottom" timestamp="1656336542617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1221" height="326" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542617" />
+    <state width="1221" height="326" key="GridCell.Tab.2.center" timestamp="1656336542616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1221" height="326" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.2.left" timestamp="1656336542616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1221" height="326" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
+    <state width="1221" height="326" key="GridCell.Tab.2.right" timestamp="1656336542617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1221" height="326" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542617" />
     <state x="373" y="94" key="SettingsEditor" timestamp="1655961300438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="373" y="94" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1655961300438" />
-    <state x="418" y="150" key="Vcs.Push.Dialog.v2" timestamp="1655969586504">
+    <state x="418" y="150" key="Vcs.Push.Dialog.v2" timestamp="1656153655032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1655969586504" />
+    <state x="418" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656153655032" />
+    <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1656212628566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1656212628566" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655948480196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -698,9 +472,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="265" key="git4idea.ui.GitTagDialog/0.0.1536.824@0.0.1536.824" timestamp="1655915256024" />
-    <state x="178" y="116" key="new project wizard" timestamp="1656036371671">
+    <state x="178" y="116" key="new project wizard" timestamp="1656325615571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1656036371671" />
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1656325615571" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1656211330054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1656211330054" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/controller/IndexController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

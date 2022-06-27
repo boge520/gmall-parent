@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * 平台属性接口
+ */
 @Slf4j
 @RestController
 @RequestMapping("/admin/product")

@@ -9,7 +9,32 @@
             <result property="name" column="name" jdbcType="VARCHAR"/>
     </resultMap>
 
+    <!--三级分类树形封装-->
+    <resultMap id="CategoryVoResultMap" type="com.atguigu.gmall.model.vo.CategoryVo">
+        <!--一级分类封装-->
+        <id property="categoryId" column="id"/>
+        <result property="categoryName" column="name"/>
+        <!--二级分类封装-->
+        <collection property="categoryChild" ofType="com.atguigu.gmall.model.vo.CategoryVo">
+            <id property="categoryId" column="id2"/>
+            <result property="categoryName" column="name2"/>
+            <!--三级分类封装-->
+            <collection property="categoryChild" ofType="com.atguigu.gmall.model.vo.CategoryVo">
+                <id property="categoryId" column="id3"/>
+                <result property="categoryName" column="name3"/>
+            </collection>
+        </collection>
+    </resultMap>
+
     <sql id="Base_Column_List">
         id,name
     </sql>
+    <select id="getCategorys" resultMap="CategoryVoResultMap">
+        select b1.* ,
+            b2.id id2,b2.name name2,b2.category1_id,
+            b3.id id3,b3.name name3,b3.category2_id
+            from base_category1 b1
+        LEFT JOIN base_category2 b2 on b1.id = b2.category1_id
+        left JOIN base_category3 b3 on b2.id = b3.category2_id
+    </select>
 </mapper>
