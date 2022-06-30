@@ -5,26 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ProductMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/ProductMainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/BaseAttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/BaseAttrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/BaseCategory1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/BaseCategory1Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SkuInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SkuInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SpuSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/mapper/SpuSaleAttrMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SkuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuSaleAttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/SpuSaleAttrService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuSaleAttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/atguigu/gmall/product/service/impl/SpuSaleAttrServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseCategory1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/BaseCategory1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SkuInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SkuInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SpuSaleAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/mapper/SpuSaleAttrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/target/classes/META-INF/service-product.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/web-front/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/FrontMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/FrontMainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/web-front/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/web-front/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/server-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +119,14 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.gmall.product.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gmall_work\gmall-parent\service\service-product\src\main\java\com\atguigu\gmall\product\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall.item.rpc" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gmall.product.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,11 +249,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -301,7 +281,11 @@
       <workItem from="1656031940436" duration="12171000" />
       <workItem from="1656137396776" duration="4977000" />
       <workItem from="1656203029990" duration="32836000" />
-      <workItem from="1656289959994" duration="21321000" />
+      <workItem from="1656289959994" duration="21556000" />
+      <workItem from="1656378506655" duration="12369000" />
+      <workItem from="1656488569122" duration="4523000" />
+      <workItem from="1656549084153" duration="30000" />
+      <workItem from="1656588298536" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1655945686226</created>
@@ -338,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656153620008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第五次提交">
+      <created>1656336590653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656336590653</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +356,8 @@
     <MESSAGE value="第三次提交" />
     <MESSAGE value="新增FileController" />
     <MESSAGE value="第四次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四次提交" />
+    <MESSAGE value="第五次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="64" width="735" height="696" key="#GatewayMainApplication" timestamp="1655889338692">
@@ -380,10 +372,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="238" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1656137458622" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1656334145190">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1656399300142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1656334145190" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1656399300142" />
     <state x="498" y="193" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1656212635187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -392,10 +384,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="152" key="#gmall/0.0.1536.824@0.0.1536.824" timestamp="1656046391622" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1656153615205">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1656336588142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1656153615205" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1656336588142" />
     <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1656206813409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -404,62 +396,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655948379796" />
-    <state width="1221" height="326" key="GridCell.Tab.0.bottom" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.0.bottom" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.0.center" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.0.center" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.0.left" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.0.left" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.0.right" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.0.right" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.1.bottom" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.1.bottom" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.1.center" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.1.center" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.1.left" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.1.left" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.1.right" timestamp="1656336542616">
+    <state width="1186" height="184" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1186" height="184" key="GridCell.Tab.1.right" timestamp="1656495602885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.2.bottom" timestamp="1656336542617">
+    <state width="1186" height="184" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1656495602885" />
+    <state width="1221" height="326" key="GridCell.Tab.2.bottom" timestamp="1656336659737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336542617" />
-    <state width="1221" height="326" key="GridCell.Tab.2.center" timestamp="1656336542616">
+    <state width="1221" height="326" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656336659737" />
+    <state width="1221" height="326" key="GridCell.Tab.2.center" timestamp="1656336659737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.2.left" timestamp="1656336542616">
+    <state width="1221" height="326" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1656336659737" />
+    <state width="1221" height="326" key="GridCell.Tab.2.left" timestamp="1656336659737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1656336542616" />
-    <state width="1221" height="326" key="GridCell.Tab.2.right" timestamp="1656336542617">
+    <state width="1221" height="326" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1656336659737" />
+    <state width="1221" height="326" key="GridCell.Tab.2.right" timestamp="1656336659737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1221" height="326" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1656336542617" />
+    <state width="1221" height="326" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1656336659737" />
     <state x="373" y="94" key="SettingsEditor" timestamp="1655961300438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="373" y="94" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1655961300438" />
-    <state x="418" y="150" key="Vcs.Push.Dialog.v2" timestamp="1656153655032">
+    <state x="418" y="150" key="Vcs.Push.Dialog.v2" timestamp="1656336607955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656153655032" />
+    <state x="418" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656336607955" />
     <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1656212628566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -472,24 +464,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="265" key="git4idea.ui.GitTagDialog/0.0.1536.824@0.0.1536.824" timestamp="1655915256024" />
-    <state x="178" y="116" key="new project wizard" timestamp="1656325615571">
+    <state x="178" y="116" key="new project wizard" timestamp="1656383288367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1656325615571" />
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1656383288367" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1656211330054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1656211330054" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service/web-front/src/main/java/com/atguigu/gmall/front/controller/IndexController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
