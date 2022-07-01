@@ -29,4 +29,5 @@ public class IndexController {
 
         return "index/index";
     }
+
 }

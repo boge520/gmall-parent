@@ -5,7 +5,7 @@ import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
-@EnableFeignClients(basePackages = "com.atguigu.gmall.feign.product")
+@EnableFeignClients(basePackages = "com.atguigu.gmall.feign")
 @SpringCloudApplication
 public class ItemMainApplication {
     public static void main(String[] args) {
