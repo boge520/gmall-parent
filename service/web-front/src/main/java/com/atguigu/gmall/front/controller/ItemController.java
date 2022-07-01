@@ -18,6 +18,7 @@ public class ItemController {
     @Autowired
     private ItemFeignClient itemFeignClient;
 
+    //查询sku的详情
     @GetMapping("/{skuId}.html")
     public String item(@PathVariable("skuId") Long skuId, Model model) {
 

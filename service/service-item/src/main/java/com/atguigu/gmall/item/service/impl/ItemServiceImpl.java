@@ -1,8 +1,10 @@
 package com.atguigu.gmall.item.service.impl;
 import java.math.BigDecimal;
+import java.util.List;
 
 import com.atguigu.gmall.common.result.Result;
 import com.atguigu.gmall.feign.product.SkuFeignClient;
+import com.atguigu.gmall.model.product.SpuSaleAttr;
 import com.google.common.collect.Lists;
 import com.atguigu.gmall.model.product.SkuInfo;
 import com.atguigu.gmall.model.vo.CategoryView;
@@ -27,15 +29,18 @@ public class ItemServiceImpl implements ItemService {
         SkuInfo skuInfo = data.getData();
         skuDetailVo.setSkuInfo(skuInfo);
 
-        skuDetailVo.setCategoryView(new CategoryView());
+        Long category3Id = skuInfo.getCategory3Id();
+        Result<CategoryView> categoryView = skuFeignClient.getCategoryView(category3Id);
+        skuDetailVo.setCategoryView(categoryView.getData());
 
-        skuDetailVo.setPrice(new BigDecimal("0"));
+        skuDetailVo.setPrice(skuInfo.getPrice());
 
-        skuDetailVo.setSpuSaleAttrList(Lists.newArrayList());
+        Long spuId = skuInfo.getSpuId();
+        Result<List<SpuSaleAttr>> saleAttr = skuFeignClient.getSaleAttr(skuId, spuId);
+        skuDetailVo.setSpuSaleAttrList(saleAttr.getData());
 
         skuDetailVo.setValuesSkuJson("");
 
-
-        return null;
+        return skuDetailVo;
     }
 }

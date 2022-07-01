@@ -13,9 +13,10 @@ public interface ItemFeignClient {
 
     /**
      * 获取商品详情
+     *
      * @param skuId
      * @return
      */
     @GetMapping("/sku/{skuId}")
-    public Result<SkuDetailVo> getSkuDetailVo(@PathVariable("skuId") Long skuId);
+    Result<SkuDetailVo> getSkuDetailVo(@PathVariable("skuId") Long skuId);
 }
