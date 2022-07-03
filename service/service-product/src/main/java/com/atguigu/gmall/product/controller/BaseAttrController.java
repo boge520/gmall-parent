@@ -37,6 +37,7 @@ public class BaseAttrController {
     public Result getAttrInfoList(@PathVariable("category1Id") Long category1Id,
                                   @PathVariable("category2Id") Long category2Id,
                                   @PathVariable("category3Id") Long category3Id) {
+        //查询分类下的所有属性名和值
         List<BaseAttrInfo> baseAttrInfoList = baseAttrInfoService.getBaseAttrInfoWithValue(category1Id, category2Id, category3Id);
         return Result.ok(baseAttrInfoList);
     }

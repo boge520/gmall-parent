@@ -12,7 +12,9 @@ import com.atguigu.gmall.product.service.SkuInfoService;
 import com.atguigu.gmall.product.mapper.SkuInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -31,6 +33,7 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoMapper, SkuInfo>
     @Autowired
     private SkuSaleAttrValueService skuSaleAttrValueService;
 
+    @Transactional
     @Override
     public void saveSkuInfo(SkuInfo skuInfo) {
         //将skuInfo存入到数据库中
@@ -68,6 +71,11 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoMapper, SkuInfo>
     @Override
     public void downSku(Long skuId) {
         skuInfoMapper.updateSaleStatus(skuId,0);
+    }
+
+    @Override
+    public BigDecimal getSkuPrice(Long skuId) {
+        return skuInfoMapper.getSkuPrice(skuId);
     }
 }
 

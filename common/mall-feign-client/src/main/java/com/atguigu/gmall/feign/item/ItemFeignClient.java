@@ -13,7 +13,6 @@ public interface ItemFeignClient {
 
     /**
      * 获取商品详情
-     *
      * @param skuId
      * @return
      */

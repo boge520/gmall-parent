@@ -5,7 +5,6 @@ import java.util.List;
 import com.atguigu.gmall.common.result.Result;
 import com.atguigu.gmall.feign.product.SkuFeignClient;
 import com.atguigu.gmall.model.product.SpuSaleAttr;
-import com.google.common.collect.Lists;
 import com.atguigu.gmall.model.product.SkuInfo;
 import com.atguigu.gmall.model.vo.CategoryView;
 
@@ -25,21 +24,30 @@ public class ItemServiceImpl implements ItemService {
 
         SkuDetailVo skuDetailVo = new SkuDetailVo();
 
+        //1、查询基本信息
         Result<SkuInfo> data = skuFeignClient.getSkuInfo(skuId);
         SkuInfo skuInfo = data.getData();
         skuDetailVo.setSkuInfo(skuInfo);
 
+        //2.查分类
         Long category3Id = skuInfo.getCategory3Id();
+        //2.1按照三级分类id查出所在的完整分类信息
         Result<CategoryView> categoryView = skuFeignClient.getCategoryView(category3Id);
         skuDetailVo.setCategoryView(categoryView.getData());
 
+        //3.查价格
         skuDetailVo.setPrice(skuInfo.getPrice());
 
+        //4.查销售属性
         Long spuId = skuInfo.getSpuId();
         Result<List<SpuSaleAttr>> saleAttr = skuFeignClient.getSaleAttr(skuId, spuId);
-        skuDetailVo.setSpuSaleAttrList(saleAttr.getData());
+        if (saleAttr.isOk()) {
+            skuDetailVo.setSpuSaleAttrList(saleAttr.getData());
+        }
 
-        skuDetailVo.setValuesSkuJson("");
+        //5.一个sku对应的spu的所有sku的组合关系、
+        Result<String> value = skuFeignClient.getSpudeAllSkuSaleAttrAndValue(skuInfo.getSpuId());
+        skuDetailVo.setValuesSkuJson(value.getData());
 
         return skuDetailVo;
     }

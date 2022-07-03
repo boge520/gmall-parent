@@ -19,6 +19,7 @@ public class ItemRpcController {
     @Autowired
     private ItemService itemService;
 
+    //查询商品详情
     @GetMapping("/sku/{skuId}")
     public Result<SkuDetailVo> getSkuDetailVo(@PathVariable("skuId") Long skuId) {
         SkuDetailVo skuDetailVo = itemService.getItemDetail(skuId);

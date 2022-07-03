@@ -24,7 +24,7 @@ public class FileController {
 
     @PostMapping("/fileUpload")
     public Result fileUpload(HttpServletRequest request,
-                            @RequestPart("file") MultipartFile file) throws Exception{
+                             @RequestPart("file") MultipartFile file) throws Exception {
 
         //1、文件上传到minio，并拿到文件访问地址
         String url = fileService.upload(file);
